@@ -1,0 +1,6 @@
+defaults:
+  -
+    scope:
+      path: "" # means all files
+    values:
+      layout: "default"
