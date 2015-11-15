@@ -2,14 +2,20 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>Linux Taiwan</title>
+	<title>Linux 台灣社群</title>
+	<link rel="stylesheet" href="/style.css">
 </head>
 <body>
+	<header id="site-title">
+		<h1>Linux 台灣社群</h1>
+		{% include nav.html %}
+	</header>
 	<main>
 		{{ content }}
 	</main>
 	<footer>
-		<a href="https://github.com/linux-taiwan/www.linux.org.tw">contribute to this site</a>
+		<span>Linux 在台灣</span>
+		<a href="https://github.com/linux-taiwan/www.linux.org.tw">本站原始碼</a>
 	</footer>
 </body>
 </html>

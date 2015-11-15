@@ -1,0 +1,28 @@
+{
+	"distros": [
+        {
+            "name": "Fedora",
+            "url": "http://fedora.linux.org.tw",
+            "bgcolor": "#4870BC",
+            "text-color": "#fff"
+        },
+        {
+            "name": "Ubuntu",
+            "url": "http://ubuntu.linux.org.tw",
+            "bgcolor": "#DD4814",
+            "text-color": "#fff"
+        },
+        {
+            "name": "OpenSUSE",
+            "url": "http://opensuse.linux.org.tw",
+            "bgcolor": "#73BA25",
+            "text-color": "#fff"
+        },
+        {
+            "name": "Arch Linux",
+            "url": "http://arch.linux.org.tw",
+            "bgcolor": "#1793D1",
+            "text-color": "#fff"
+        }
+	]
+}

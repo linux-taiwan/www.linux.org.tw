@@ -1,0 +1,67 @@
+---
+---
+
+
+<div class="slogan">
+	<h2>最尊重使用者的作業系統</h2>
+	<p>在沒有圍牆的世界，大門又何須存在？</p>
+</div>
+
+<section id="news">
+	<h2>最新消息</h2>
+	<div class="content">
+		<ul>
+			<li>
+				希望有很多人來幫忙～
+			</li>
+			<li>
+				聽說 Fedora 23 發行了！！
+			</li>
+			<li>
+				Ubuntu 的代表顏色是紫色還是紅色呢？
+			</li>
+			<li>
+				每一次裝 Arch Linux 都像是第一次裝。
+			</li>
+			<li>
+				OpenSUSE: 你看不到我你看不到我你看不到我～
+			</li>
+			<li>
+				<a href="#more">
+					v
+				</a>
+			</li>
+		</ul>
+	</div>
+</section>
+
+<section id="tutorial">
+	<h2>教學文件</h2>
+	<div class="content">
+		努力趕工中… 快來人幫忙呀！
+	</div>
+</section>
+
+<section id="community">
+	<h2>社群列表</h2>
+	<div class="content">
+		<ul>
+		{% for distro in site.data.linux.distros %}
+	    <li>
+			<a href="{{ distro.url }}" style="background:{{ distro.bgcolor }};">
+				<div class="info">
+					<strong style="color: {{ distro.text-color }};">{{ distro.name }}</strong>
+				</div>
+			</a>
+	    </li>
+	    {% endfor %}
+	</ul>
+	</div>
+</section>
+
+<section id="contribute">
+    <h2>熱情貢獻</h2>
+	<div class="content">
+		有沒有人… 要來幫忙呢？
+	</div>
+</section>
