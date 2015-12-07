@@ -115,9 +115,10 @@ main {
 		padding: 3rem 0;
 		text-align: center;
 
-		h2 {
+		h2, h3 {
 			display: inline-block;
 			font-size: 1.75rem;
+			color: $main-color;
 		}
 
 		&:nth-child(odd)
@@ -132,10 +133,6 @@ main {
 		&:nth-child(even)
 		{
 			background-color: #fff;
-		}
-
-		h2 {
-			color: $main-color;
 		}
 	}
 }
@@ -191,22 +188,59 @@ main {
 }
 
 #community .content {
+	text-align: center;
+	
 	ul {
-		padding: 0;
+		padding: 0 0 2rem;
+		margin: 0 auto;
 		list-style-type: none;
 
-		li {
+		&.distro li {
 			display: inline-block;
-			background-color: #fff;
-			margin: 0 .5rem;
-			min-width: 20%;
-			border: 1px solid #ccc;
-			border-radius: 3px;
+			margin: .5rem;
+			min-width: 12.5%;
 
 			a {
 				display: block;
-				padding: 2rem 3rem;
+				padding: 1rem;
 				text-decoration: none;
+				
+				div	strong {
+					font-size: 1.5rem;
+				}
+			}
+		}
+
+		&.community, &.other {
+			width: 50%;
+			text-align: left;
+
+			li {
+				border-bottom: 1px solid #ccc;
+				margin: 0 1rem;
+
+				&:first-child {
+					border-top: 1px solid #ccc;
+				}
+				
+
+				a {
+					display: block;
+					padding: 1rem;
+					font-size: 1.25rem;
+					line-height: 1.5rem;
+					text-decoration: none;
+
+					.title {
+						color: darken($main-color, 5%);
+						font-weight: 600;
+					}
+
+					.description {
+						color: #454545;
+
+					}
+				}
 			}
 		}
 	}

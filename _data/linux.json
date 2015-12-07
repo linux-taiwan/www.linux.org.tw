@@ -13,7 +13,7 @@
             "text-color": "#fff"
         },
         {
-            "name": "OpenSUSE",
+            "name": "openSUSE",
             "url": "http://opensuse.linux.org.tw",
             "bgcolor": "#73BA25",
             "text-color": "#fff"
@@ -24,5 +24,30 @@
             "bgcolor": "#1793D1",
             "text-color": "#fff"
         }
+	],
+	"communities": [
+		{
+			"name": "TOSSUG",
+			"description": "台北開放原始碼軟體使用者社群（簡稱台北土虱社群）是一個愛好自由軟體與開放原始碼同好的聚會。",
+			"url": "http://www.tossug.org/",
+			"bgcolor": "#121212",
+			"text-color": "#fff"
+		},
+		{
+			"name": "Hacking Thursday",
+			"description": "Hacking Thursday 是由幾位居住於台北地區的自由軟體/開放原碼開發者所發起，每週四晚上會於特定咖啡店聚會。",
+			"url": "http://www.hackingthursday.org/",
+			"bgcolor": "#980618",
+			"text-color": "#fff"
+		}
+	],
+	"others": [
+		{
+			"name": "PTT Linux 板",
+			"description": "批踢踢 (Ptt) 是以學術性質為目的，以電子佈告欄系統為媒介的服務，你或許可以在這裡得到需要的資訊。",
+			"url": "https://www.ptt.cc/bbs/Linux/",
+			"bgcolor": "#335EFA",
+			"text-color": "#fff"
+		}
 	]
 }

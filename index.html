@@ -20,19 +20,43 @@
 </section>
 
 <section id="community">
-	<h2>社群列表</h2>
+	<h2>社群參與</h2>
 	<div class="content">
-		<ul>
+		<ul class="distro">
 		{% for distro in site.data.linux.distros %}
 	    <li>
-			<a href="{{ distro.url }}" style="background:{{ distro.bgcolor }};">
+			<a href="{{ distro.url }}" style="background: linear-gradient(#fff 1em, #fff calc(100% - 5px), {{ distro.bgcolor }} calc(100% - 5px));">
+
 				<div class="info">
-					<strong style="color: {{ distro.text-color }};">{{ distro.name }}</strong>
+					<strong style="color: {{ distro.bgcolor }};">{{ distro.name }}</strong>
 				</div>
 			</a>
 	    </li>
 	    {% endfor %}
 	</ul>
+	<h3>實體聚會</h3>
+	<ul class="community">
+		{% for community in site.data.linux.communities %}
+		<li>
+			<a href="{{ community.url }}">
+				<span class="title">{{ community.name }}</span>
+				<div class="description">{{ community.description }}</div>
+			</a>
+		</li>
+		{% endfor %}
+	</ul>
+	<h3>其他協助</h3>
+	<ul class="other">
+		{% for other in site.data.linux.others %}
+		<li>
+			<a href="{{ other.url }}">
+				<span class="title">{{ other.name }}</span>
+				<div class="description">{{ other.description }}</div>
+			</a>
+		</li>
+		{% endfor %}
+	</ul>
+
 	</div>
 </section>
 
