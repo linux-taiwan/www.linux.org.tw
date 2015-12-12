@@ -1,25 +1,12 @@
 ---
 ---
 
-<section id="tutorial">
-	<h2>學習資源</h2>
-	<div class="content">
-		<ul>
-			<li>
-				<a href="http://linuxcommand.org/tlcl.php">
-					<img src="{{ site.baseurl }}/images/TLCL.jpg" alt="TLCL">
-				</a>
-			</li>
-			<li>
-				<a href="https://lwn.net/Kernel/LDD3/">
-					<img src="{{ site.baseurl }}/images/LDD.jpg" alt="LDD">
-				</a>
-			</li>
-		</ul>
+<div class="slogan">
+	<div>
+	<h2>開放原始碼的作業系統組合</h2>
 	</div>
-</section>
-
-<section id="community">
+</div>
+<section id="participation">
 	<h2>社群參與</h2>
 	<div class="content">
 		<ul class="distro">
@@ -33,8 +20,12 @@
 			</a>
 	    </li>
 	    {% endfor %}
-	</ul>
+		</ul>
+	</div>
+</section>
+<section id="community">
 	<h3>實體聚會</h3>
+	<div class="content">
 	<ul class="community">
 		{% for community in site.data.linux.communities %}
 		<li>
@@ -60,9 +51,3 @@
 	</div>
 </section>
 
-<section id="contribute">
-    <h2>熱情貢獻</h2>
-	<div class="content">
-		有沒有人… 要來幫忙呢？
-	</div>
-</section>

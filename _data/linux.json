@@ -29,25 +29,29 @@
 		{
 			"name": "TOSSUG",
 			"description": "台北開放原始碼軟體使用者社群（簡稱台北土虱社群）是一個愛好自由軟體與開放原始碼同好的聚會。",
-			"url": "http://www.tossug.org/",
-			"bgcolor": "#121212",
-			"text-color": "#fff"
+			"url": "http://www.tossug.org/"
 		},
 		{
 			"name": "Hacking Thursday",
 			"description": "Hacking Thursday 是由幾位居住於台北地區的自由軟體/開放原碼開發者所發起，每週四晚上會於特定咖啡店聚會。",
-			"url": "http://www.hackingthursday.org/",
-			"bgcolor": "#980618",
-			"text-color": "#fff"
+			"url": "http://www.hackingthursday.org/"
+		},
+		{
+			"name": "Central Taiwan Linux User Group",
+			"description": "中台灣 Linux 使用者社群，是由一群熱愛 Linux 與 FLOSS 相關議題的中部人/居民所組成的團體。",
+			"url": "https://www.facebook.com/groups/ctlug.tw/",
+		},
+		{
+			"name": "KaLUG",
+			"description": "KaLUG(大高雄 Linux 使用者協會)是由一群熱愛 Open Source 的朋友所組成的團體，通常於每月第四個禮拜六下午兩點左右固定在高雄舉行自由軟體相關的研討會, 由參與活動者輪流主講 Topic。",
+			"url": "http://kalug.linux.org.tw/"
 		}
 	],
 	"others": [
 		{
 			"name": "PTT Linux 板",
 			"description": "批踢踢 (Ptt) 是以學術性質為目的，以電子佈告欄系統為媒介的服務，你或許可以在這裡得到需要的資訊。",
-			"url": "https://www.ptt.cc/bbs/Linux/",
-			"bgcolor": "#335EFA",
-			"text-color": "#fff"
+			"url": "https://www.ptt.cc/bbs/Linux/"
 		}
 	]
 }
