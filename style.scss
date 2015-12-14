@@ -105,7 +105,7 @@ main {
 	}
 
 	.slogan {
-		background: #2A2929 url('/images/slogan_bg.png') center center no-repeat;
+		background: #2A2929 url('/images/slogan_bg.png') top center no-repeat;
 
 		div {
 			background-color: transparentize($main-color, 0.075);
@@ -263,3 +263,12 @@ main {
 	}
 }
 
+#about {
+	ul {
+		display: inline-block;
+		text-align: left;
+	}
+	a {
+		color: $main-color;
+	}
+}
