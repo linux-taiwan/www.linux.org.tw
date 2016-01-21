@@ -206,24 +206,29 @@ main {
 
 #participation, #community .content {
 	text-align: center;
-	
+
 	ul {
 		padding: 0 0 2rem;
 		margin: 0 auto;
 		list-style-type: none;
 
-		&.distro li {
-			display: inline-block;
-			margin: .5rem;
-			min-width: 12.5%;
+		&.distro {
+			max-width: 800px;
 
-			a {
-				display: block;
-				padding: 1rem;
-				text-decoration: none;
-				
-				div	strong {
-					font-size: 1.5rem;
+			li {
+				display: inline-block;
+				margin: 1rem 1.5rem;
+				min-width: 12.5%;
+
+				a {
+					display: block;
+					padding: 1rem;
+					width: 9rem;
+					text-decoration: none;
+
+					div	strong {
+						font-size: 1.5rem;
+					}
 				}
 			}
 		}
