@@ -23,7 +23,13 @@
             "url": "http://arch.linux.org.tw",
             "bgcolor": "#1793D1",
             "text-color": "#fff"
-        }
+        },
+	{
+            "name": "Debian Linux",
+            "url": "http://www.debian.org.tw",
+            "bgcolor": "#CC0066",
+            "text-color": "#fff"
+	}
 	],
 	"communities": [
 		{
