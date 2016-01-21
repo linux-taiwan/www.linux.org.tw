@@ -26,7 +26,7 @@
         },
 	{
             "name": "Debian Linux",
-            "url": "http://debian.linux.org.tw",
+            "url": "http://www.debian.org.tw",
             "bgcolor": "#CC0066",
             "text-color": "#fff"
 	}
