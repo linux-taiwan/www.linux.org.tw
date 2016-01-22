@@ -21,6 +21,19 @@
 	    </li>
 	    {% endfor %}
 		</ul>
+		<h3>桌面環境</h3>
+		<ul class="devin">
+		{% for devin in site.data.linux.devins %}
+	    <li>
+			<a href="{{ devin.url }}" style="background: linear-gradient(#fff 1em, #fff calc(100% - 5px), {{ devin.bgcolor }} calc(100% - 5px));">
+
+				<div class="info">
+					<strong style="color: {{ devin.bgcolor }};">{{ devin.name }}</strong>
+				</div>
+			</a>
+	    </li>
+	    {% endfor %}
+		</ul>
 	</div>
 </section>
 <section id="community">

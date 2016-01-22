@@ -24,12 +24,26 @@
             "bgcolor": "#1793D1",
             "text-color": "#fff"
         },
-	{
+        {
             "name": "Debian",
             "url": "http://www.debian.org.tw",
             "bgcolor": "#CC0066",
             "text-color": "#fff"
-	}
+        }
+    ],
+    "devins": [
+        {
+			"name": "GNOME",
+			"url": "http://gnome.linux.org.tw",
+			"bgcolor": "#2E3436",
+			"text-color": "#fff"
+		},
+		{
+			"name": "KDE",
+			"url": "http://kde.linux.org.tw",
+			"bgcolor": "#0068C6",
+			"text-color": "#fff"
+		}
 	],
 	"communities": [
 		{
