@@ -335,7 +335,7 @@ main {
 	}
 }
 
-#participation, #community .content {
+#participation, #community .content, #commercial .content {
 	text-align: center;
 
 	ul {
@@ -364,7 +364,7 @@ main {
 			}
 		}
 
-		&.community, &.other {
+		&.community, &.other, &.commercial {
 			width: 50%;
 			text-align: left;
 
