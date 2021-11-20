@@ -63,4 +63,19 @@
 
 	</div>
 </section>
+<section id="paidservices">
+	<h3>預裝 Linux 桌機與筆電, 代理與客製付費服務提供商</h3>
+	<div class="content">
+	<ul class="community">
+		{% for sercice in site.data.linux.localpaidservices %}
+		<li>
+			<a href="{{ sercice.url }}">
+				<span class="title">{{ sercice.name }}</span>
+				<div class="description">{{ sercice.description }}</div>
+			</a>
+		</li>
+		{% endfor %}
+	</ul>
+	</div>
+</section>
 
